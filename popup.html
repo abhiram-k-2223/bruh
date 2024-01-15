@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Summarizer</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'self';">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="inputPage">
+    <h1 style="color: white; -webkit-text-stroke-width: 0.2px;-webkit-text-stroke-color: black;">Input Text</h1>
+    <textarea id="textInput" style="background-color: transparent;"></textarea>
+    <button id="summarizeButton" style="border-radius: 10px;">Summarize</button>
+  </div>
+
+  <div id="outputPage">
+    <h1 style="color: white;font-family: 'Times New Roman', Times, serif;">Summarized Text</h1>
+    <p id="summarizedText"></p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

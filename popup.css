@@ -1,0 +1,17 @@
+body {  
+    width: 300px;
+    color: black;
+    background: linear-gradient(-25deg, pink 11%, skyblue 90%);
+    text-align: center;
+  }
+  #textInput {
+overflow: auto;
+resize: both;
+  }
+
+  #outputPage {
+    display: none;
+  }
+  #summarizedText{
+   color: black;
+  }
